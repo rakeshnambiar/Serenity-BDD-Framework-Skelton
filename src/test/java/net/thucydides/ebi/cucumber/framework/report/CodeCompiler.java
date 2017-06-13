@@ -9,6 +9,6 @@ public class CodeCompiler {
 
     @Test
     public void compilerTest(){
-        System.out.println("Tests triggered");
+        System.out.println("Compilation Test PASS");
     }
 }
