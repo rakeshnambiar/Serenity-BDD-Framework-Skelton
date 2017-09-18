@@ -49,10 +49,10 @@ public class initialization extends PageObject{
     public void prepareTest() throws Exception {
         try{
             browserTest = true;
-            if (!PropertyHelper.getProperty("webdriver.driver").equalsIgnoreCase("appium")) {
+          /*  if (!PropertyHelper.getProperty("webdriver.driver").equalsIgnoreCase("appium")) {
                 getDriver().manage().window().maximize();
                 getDriver().manage().window().setSize(new Dimension(1920,1080));
-            }
+            }*/
         }catch (Exception e){
             throw new Exception("ERROR: While Preparing for the Test");
         }
