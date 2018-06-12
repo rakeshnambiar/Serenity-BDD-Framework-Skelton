@@ -20,11 +20,11 @@ public class EbiSearchScenarioSteps extends ScenarioSteps{
     EbiHomePage homePage;
 
     @Step
-    public void printMessage(String message){
+    private void printMessage(String message){
 
     }
 
-    public void opens_home_page() {
+    private void opens_home_page() {
         homePage.open();
     }
 
